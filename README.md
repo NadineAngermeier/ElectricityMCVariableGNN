@@ -35,4 +35,4 @@ For the Gurobi optimization, the *gurobipy* library needs to be installed after 
 For the RGNN Tests, the *PyTorch*, *PyTorch Geometric* and *PyTorch Geometric Temoral* libraries are needed. If tested on GPU, a CUDA-capable system (NVIDIA GPU) is needed and the libraries need to be installed in the CUDA version. Additionally install *PyTorch Lightning* and *TensorFlow*. We additionally provide a yml file for quick setup of the environment with Anaconda. Details on the environment setup are given in the paper in Section 5.2.3.
 
 ## Credits
-This project was fully created by Nadine S. Angermeier within her Master's Thesis at the Chair of Decision Sciene & Systems, Department of Computer Science, School of Computation, Information and Technology at the Technical University of Munich under the supervision of Mete S. Ahunbay (Oct 2022- May 2023).
+This project was fully created by Nadine S. Angermeier within her Master's Thesis at the Chair of Decision Science & Systems, Department of Computer Science, School of Computation, Information and Technology at the Technical University of Munich under the supervision of Mete S. Ahunbay (Oct 2022- May 2023).
