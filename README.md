@@ -22,16 +22,15 @@ We then apply a (dynamic) recursive graph neural network, implemented with the P
 
 The Repository consists of three types of artifacts: *Scripts*, *data sets* and *test logs*. 
 
-The used scipts for data cleaning, data preparation and feasibility adjustments to the data sets are in cluded in *Data Preparation*. Then we propose scripts for formatting the data and creating dynamic grid sizes in *Dynamic Sets*. The last step of the data preparation is the Gurobi optimization with the respective script and sampling method. 
+
+Summaries of the used scipts for data cleaning as well as data preparation and feasibility adjustments to the data sets are included in *Data Preparation*. Then we propose scripts for formatting the data and creating dynamic grid sizes in *Dynamic Sets*. The last step of the data preparation is the Gurobi optimization with the respective script and sampling method.
 
 In *RGNN Tests* we provide the scripts for test the PyTorch Geometric implementation. Some of the mentioned test results are given in the TensorFlow format in test logs.
 The scripts were continuously adapted within their use, so only their last versions are provided. They can be adapted with the configuration details and hyperparameters discussed in the Model Test section of the actual thesis.
 
 ## Use
-We provide Jupyter Notebooks.
-
-For the Gurobi optimization, the *gurobipy* library needs to be installed after a license was created or using Google Colab. Details on the environment setup are given in the paper in Section 4.3.4
-
+We provide Jupyter Notebooks.  
+For the Gurobi optimization, the *gurobipy* library needs to be installed after a license was created or using Google Colab. Details on the environment setup are given in the paper in Section 4.3.4.  
 For the RGNN Tests, the *PyTorch*, *PyTorch Geometric* and *PyTorch Geometric Temoral* libraries are needed. If tested on GPU, a CUDA-capable system (NVIDIA GPU) is needed and the libraries need to be installed in the CUDA version. Additionally install *PyTorch Lightning* and *TensorFlow*. We additionally provide a yml file for quick setup of the environment with Anaconda. Details on the environment setup are given in the paper in Section 5.2.3.
 
 ## Credits
