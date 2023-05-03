@@ -1,4 +1,4 @@
-# Clearing Electricity Market of Variable SIze with Graph Neural Networks
+# Clearing Electricity Market of Variable Size with Graph Neural Networks
 Repository for Master's Thesis 'Clearing Electricity Market of Variable Size with Graph Neural Networks' by N.Angermeier  (TUM)
 
 ## Project Description
