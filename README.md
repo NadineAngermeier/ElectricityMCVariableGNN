@@ -10,13 +10,14 @@ We then apply a (dynamic) recursive graph neural network, implemented with the P
 
 ## Contents
 * Scripts
-** Data 
-*** Data Preparation
-*** Dynamic Sets
-*** Gurobi
-** RGNN Tests
-*** CPU
-*** GPU
+  * Data
+    * Data Preparation
+    * Dynamic Sets
+    * Gurobi
+  * RGNN Tests
+    * CPU
+    * GPU
+* Data Sets
 * Test Logs
 
 The Repository consists of three types of artifacts: *Scripts*, *data sets* and *test logs*. 
