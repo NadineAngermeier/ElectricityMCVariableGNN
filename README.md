@@ -6,7 +6,7 @@ The energy market clearing and the associated optimal power flow (OPF) problem c
 
 In our paper, we solve an advanced version of the DC-OPF model with a full inclusion of the unit commitment problem. In the literature review of ML application in OPF so far, we come across the limit of not including variable grid sizes into the ML approaches so far. However, the energy grid is continuously changing and growing, and real-life OPF optimization support tools need to be able to handle these changes. This paper inspects and defines approaches to account for this data structure within OPF optimization. Within the paper, we define a method to create feasible dynamic data sets for DC-OPF optimization from the IEEE OPF Benchmarking cases and the PJM Data Miner. 
 
-We then apply a (dynamic) recursive graph neural network, implemented with the PYTorch Geometric Temporal library, to mimick the MIP optimization and give the test results. While the model can handle this data structure and creates good test scores for fixed-size generation prediction (91\%), variance in the data and specifically different grid sizes pose significant challenges to the model.
+We then apply a (dynamic) recursive graph neural network, implemented with the PyTorch Geometric Temporal library, to mimick the MIP optimization and give the test results. While the model can handle this data structure and creates good test scores for fixed-size generation prediction (91\%), variance in the data and specifically different grid sizes pose significant challenges to the model.
 
 ## Contents
 * Scripts
