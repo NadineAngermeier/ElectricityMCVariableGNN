@@ -28,12 +28,12 @@ Summaries of the used scipts for data cleaning as well as data preparation and f
 In *RGNN Tests* we provide the scripts for test the PyTorch Geometric implementation. Some of the mentioned test results are given in the TensorFlow format in *Test Logs*.
 The scripts were continuously adapted within their use, so only their last versions are provided. They can be adapted with the configuration details and hyperparameters discussed in the Model Test section of the actual thesis.
 
-Within *Data Sets* we provide three finished sets, generated and optimized with the discussed methods and scripts.
+Within *Data Sets* we provide three finished sets, generated and optimized with the discussed methods and scripts (may reoptimize with Gurobi Script).
 
 ## Use
 We provide Jupyter Notebooks.  
 For the Gurobi optimization, the *gurobipy* library needs to be installed after a license was created or using Google Colab. Details on the environment setup are given in the paper in Section 4.3.4.  
-For the RGNN Tests, the *PyTorch*, *PyTorch Geometric* and *PyTorch Geometric Temoral* libraries are needed. If tested on GPU, a CUDA-capable system (NVIDIA GPU) is needed and the libraries need to be installed in the CUDA version. Additionally install *PyTorch Lightning* and *TensorFlow*. We additionally provide a yml file for quick setup of the environment with Anaconda. Details on the environment setup are given in the paper in Section 5.2.3.
+For the RGNN Tests, the *PyTorch*, *PyTorch Geometric* and *PyTorch Geometric Temporal* libraries are needed. If tested on GPU, a CUDA-capable system (NVIDIA GPU) is needed and the libraries need to be installed in the CUDA version. Additionally install *PyTorch Lightning* and *TensorFlow*. We additionally provide a yml file for quick setup of the environment with Anaconda. Details on the environment setup are given in the paper in Section 5.2.3.
 
 ## Credits
 This project was fully created by Nadine S. Angermeier within her Master's Thesis at the Chair of Decision Science & Systems, Department of Computer Science, School of Computation, Information and Technology at the Technical University of Munich under the supervision of Mete S. Ahunbay (Oct 2022- May 2023).
