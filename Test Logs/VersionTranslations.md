@@ -1,6 +1,6 @@
 # Translation of Lightning Versions to Table
 
-We give the training and testing Lightning/TensorFlow logs of interesting configurations on GPU, discussed in the thesis.  
+We give the training and testing Lightning/TensorBlow logs of interesting configurations on GPU, discussed in the thesis.  
 Lightning versions are numbered based on their execution. Relating to the tables of chapter 5:
 
 ### Table 5.5:
