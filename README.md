@@ -25,8 +25,10 @@ The Repository consists of three types of artifacts: *Scripts*, *data sets* and 
 
 Summaries of the used scipts for data cleaning as well as data preparation and feasibility adjustments to the data sets are included in *Data Preparation*. Then we propose scripts for formatting the data and creating dynamic grid sizes in *Dynamic Sets*. The last step of the data preparation is the Gurobi optimization with the respective script and sampling method.
 
-In *RGNN Tests* we provide the scripts for test the PyTorch Geometric implementation. Some of the mentioned test results are given in the TensorFlow format in test logs.
+In *RGNN Tests* we provide the scripts for test the PyTorch Geometric implementation. Some of the mentioned test results are given in the TensorFlow format in *Test Logs*.
 The scripts were continuously adapted within their use, so only their last versions are provided. They can be adapted with the configuration details and hyperparameters discussed in the Model Test section of the actual thesis.
+
+Within *Data Sets* we provide three finished sets, generated and optimized with the discussed methods and scripts.
 
 ## Use
 We provide Jupyter Notebooks.  
