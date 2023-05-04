@@ -2,17 +2,17 @@ cff-version: 1.0.0
 message: "If you use artifacts of this project, please cite it as below."
 authors:
 - family-names: "Angermeier"
-  given-names: "Nadine S."
-title: "Clearing Electricity Market of Variable Size with Graph Neural Networks"
+  given-names: "Nadine"
+title: "Repository: Clearing Electricity Market of Variable Size with Graph Neural Networks"
 version: 1.0.0
 url: "https://github.com/NadineAngermeier/ElectricityMCVariableGNN"
 preferred-citation:
   type: article
   authors:
   - family-names: "Angermeier"
-    given-names: "Nadine S."
+    given-names: "Nadine"
   - family-names: "Ahunbay"
-    given-names: "Mete S."
+    given-names: "Mete"
   month: 5
   title: "Clearing Electricity Market of Variable Size with Graph Neural Networks"
   year: 2023
