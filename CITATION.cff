@@ -14,7 +14,5 @@ preferred-citation:
   - family-names: "Ahunbay"
     given-names: "Mete S."
   month: 5
-  start: 1 # First page number
-  end: 10 # Last page number
   title: "Clearing Electricity Market of Variable Size with Graph Neural Networks"
   year: 2023
